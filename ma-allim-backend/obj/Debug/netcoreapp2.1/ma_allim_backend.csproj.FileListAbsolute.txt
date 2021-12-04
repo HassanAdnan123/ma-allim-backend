@@ -1,0 +1,14 @@
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\bin\Debug\netcoreapp2.1\ma_allim_backend.deps.json
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\bin\Debug\netcoreapp2.1\ma_allim_backend.runtimeconfig.json
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\bin\Debug\netcoreapp2.1\ma_allim_backend.runtimeconfig.dev.json
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\bin\Debug\netcoreapp2.1\ma_allim_backend.dll
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\bin\Debug\netcoreapp2.1\ma_allim_backend.pdb
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.csprojAssemblyReference.cache
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.csproj.CoreCompileInputs.cache
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.RazorAssemblyInfo.cache
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.RazorAssemblyInfo.cs
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.AssemblyInfoInputs.cache
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.AssemblyInfo.cs
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.RazorTargetAssemblyInfo.cache
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.dll
+D:\HANSTECH\Ma'allim portal\Development Repo\ma-allim-backend\ma-allim-backend\obj\Debug\netcoreapp2.1\ma_allim_backend.pdb
