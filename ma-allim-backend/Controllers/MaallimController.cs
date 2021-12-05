@@ -12,26 +12,18 @@ namespace ma_allim_backend.Controllers
     [ApiController]
     public class MaallimController : ControllerBase
     {
-        // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return base.Content("<div><h1> Ma-allim Backend now functional </h1></div>", "text/html");
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
         // POST api/values
         [EnableCors("AllowOrigin")]
         [HttpPost]
         public List<singlerow> Post ([FromBody] RequestModel json)
         {
-            return ResponseModel.PopulateFruits(json.noOfRecs);
+            return ResponseModel.PopulateAttendanceData(json);
+        }
+
+        [HttpGet]
+        public string Get()
+        {
+            return "Ma-allim portal API running";
         }
 
         // PUT api/values/5

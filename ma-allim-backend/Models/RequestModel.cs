@@ -7,6 +7,8 @@ namespace ma_allim_backend.Models
 {
     public class RequestModel
     {
-        public int noOfRecs { get; set; }
+        public int userID { get; set; }
+        public int month { get; set; }
+        public int year { get; set; }
     }
 }
