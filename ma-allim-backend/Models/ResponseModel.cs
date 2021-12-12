@@ -42,6 +42,37 @@ namespace ma_allim_backend.Models
 
             return records;
         }
+
+        public static List<UserModel> FetchUsers()
+        {
+            string constr = @"Data Source=DESKTOP-2TG2JQ0\THUNDERPC;Initial Catalog=ma-allim-portal;integrated security=true";
+            List<UserModel> records = new List<UserModel>();
+            using (SqlConnection con = new SqlConnection(constr))
+            {
+                string query = $"SELECT USERID, u.Name FROM USERINFO u ;";
+                using (SqlCommand cmd = new SqlCommand(query))
+                {
+                    cmd.Connection = con;
+                    con.Open();
+                    using (SqlDataReader sdr = cmd.ExecuteReader())
+                    {
+                        while (sdr.Read())
+                        {
+                            records.Add(new UserModel
+                            {
+                                userid = Convert.ToInt32(sdr["userid"]),
+                                name = Convert.ToString(sdr["name"])
+                            });
+                        }
+                    }
+                    con.Close();
+                }
+            }
+
+            return records;
+        }
+
+
     }
     
     public class singlerow
